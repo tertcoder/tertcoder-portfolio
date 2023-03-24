@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .main-component {
+    @apply flex flex-col md:flex-row justify-start;
+  }
+  .activeLink {
+    @apply border-l-4 font-medium border-yellow-400 text-yellow-400;
+  }
+}
