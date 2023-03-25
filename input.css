@@ -10,3 +10,27 @@
     @apply border-l-4 font-medium border-yellow-400 text-yellow-400;
   }
 }
+
+@layer base {
+  .name {
+    background: linear-gradient(
+      45deg,
+      hsla(224, 16%, 35%, 1) 40%,
+      hsla(56, 96%, 42%, 0.75) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @apply transition-all duration-200;
+  }
+  .group:hover .name {
+    background: linear-gradient(
+      90deg,
+      hsla(224, 16%, 35%, 1) 10%,
+      hsla(56, 96%, 42%, 0.75) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
