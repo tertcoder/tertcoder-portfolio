@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="select-none scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,18 +15,18 @@
 
     <title>Bon Tertius T. | Web Developer</title>
   </head>
-  <body class="p-1 text-gray-200 md:bg-grayBlue bg-darkBlue">
+  <body class="p-1 font-medium text-gray-300 lg:bg-grayBlue bg-darkBlue">
     <div class="main-component">
-      <header class="md:h-screen md:fixed inset-0 md:w-[15rem]">
+      <header class="lg:h-full lg:fixed inset-0 lg:w-[15rem] p-4 lg:p-0">
         <div
-          class="flex md:m-1 md:rounded-lg md:bg-darkBlue md:h-full md:flex-col"
+          class="flex lg:m-1 lg:rounded-lg lg:bg-darkBlue lg:h-full lg:flex-col"
         >
           <!-- Profile -->
           <div
-            class="flex items-center space-x-2 md:border-b-4 group md:space-x-0 border-b-grayBlue md:space-y-2 md:justify-center md:flex-col md:pt-2 md:pb-8"
+            class="flex items-center space-x-2 lg:border-b-4 group lg:space-x-0 border-b-grayBlue lg:space-y-2 lg:justify-center lg:flex-col lg:pt-2 lg:pb-8"
           >
             <div
-              class="relative w-12 h-12 overflow-hidden rounded-full after:duration-200 after:absolute after:z-10 after:bg-darkBlue group-hover:after:bg-opacity-0 after:inset-0 after:bg-opacity-40 md:w-24 md:h-24 md:mx-auto"
+              class="relative w-12 h-12 overflow-hidden rounded-full after:duration-200 after:absolute after:z-10 after:bg-darkBlue group-hover:after:bg-opacity-0 after:inset-0 after:bg-opacity-40 lg:w-24 lg:h-24 lg:mx-auto"
             >
               <img
                 src="presets/images/tertcoder-profile.png"
@@ -34,12 +34,12 @@
                 class="w-full -translate-y-2"
               />
             </div>
-            <p class="text-lg font-semibold tracking-wide name md:text-xl">
+            <p class="text-lg font-semibold tracking-wide name lg:text-xl">
               &lt; &frasl; tertcoder &gt;
             </p>
 
             <!-- Social Links -->
-            <div class="hidden pt-6 space-x-4 md:flex">
+            <div class="hidden pt-6 space-x-4 lg:flex">
               <a
                 href="https://github.com/tertcoder"
                 class="transition-colors duration-250 w-9 h-9 stroke-grayBlue hover:stroke-yellow-400"
@@ -107,7 +107,7 @@
           </div>
 
           <!-- Navigations -->
-          <div class="flex-1 hidden p-4 pt-8 md:flex md:flex-col">
+          <div class="flex-1 hidden p-4 pt-8 lg:flex lg:flex-col">
             <div class="overflow-hidden rounded-lg group">
               <a
                 id="link"
@@ -144,21 +144,85 @@
           </div>
           <!-- Large Screen Footer -->
           <div
-            class="hidden p-2 text-xs font-light text-center text-gray-500 md:block"
+            class="hidden p-2 text-xs font-light text-center text-gray-500 lg:block"
           >
             <p>copyright&copy; 2023</p>
             <p>All Right Reserved</p>
           </div>
         </div>
       </header>
-      <main class="w-full md:min-h-screen md:ml-[14.75rem]">
-        <div
-          class="overflow-hidden md:rounded-lg md:bg-darkBlue md:min-h-fullsnap-mandatory"
-        >
-          <section id="about" class="h-screenbg-red-400"></section>
-          <section id="skills" class="h-screen bg-teal-400"></section>
-          <section id="works" class="h-screen bg-orange-400"></section>
-          <section id="contact" class="h-screen bg-purple-300"></section>
+      <main class="w-full lg:min-h-full lg:ml-[14.75rem]">
+        <div class="overflow-hidden lg:rounded-lg lg:bg-darkBlue lg:min-h-full">
+          <section id="about" class="min-h-screen px-2 lg:px-0">
+            <div class="flex items-center p-2 px-4">
+              <span
+                class="text-5xl font-bold text-yellow-400 -translate-y-5 animate-pulse"
+                >.</span
+              >
+              <h1
+                class="text-xl font-semibold tracking-wide text-blue-200 text-opacity-20 lg:text-2xl greeting"
+              ></h1>
+              <!-- <div class="text-2xl font-medium times"></div> -->
+            </div>
+            <div
+              class="flex flex-col items-center mx-auto mt-20 lg:mt-32 lg:max-w-2xl lg:mx-10 lg:items-start"
+            >
+              <div class="text-center lg:text-left">
+                <span class="hidden text-blue-200 text-opacity-20 lg:block"
+                  >I'm</span
+                >
+                <h1
+                  class="py-1 text-4xl font-bold tracking-wider text-yellow-400 md:text-6xl sm:text-5xl"
+                >
+                  Bon Tertius T.
+                </h1>
+                <span class="block mt-2 text-blue-200 text-opacity-20">
+                  a web
+                  <span class="underline capitalize">developer</span>
+                  /
+                  <span class="underline capitalize">designer</span>
+                </span>
+                <span class="block mt-2 space-x-1 space-y-1 lg:space-y-0">
+                  <span
+                    class="inline-block px-2 py-1 text-xs text-blue-200 duration-200 border-2 border-yellow-400 rounded-full hover:border-opacity-100 hover:text-opacity-100 border-opacity-20 text-opacity-20"
+                    >#html</span
+                  >
+                  <span
+                    class="inline-block px-2 py-1 text-xs text-blue-200 duration-200 border-2 border-yellow-400 rounded-full hover:border-opacity-100 hover:text-opacity-100 border-opacity-20 text-opacity-20"
+                    >#css</span
+                  >
+                  <span
+                    class="inline-block px-2 py-1 text-xs text-blue-200 duration-200 border-2 border-yellow-400 rounded-full hover:border-opacity-100 hover:text-opacity-100 border-opacity-20 text-opacity-20"
+                    >#js</span
+                  >
+                  <span
+                    class="inline-block px-2 py-1 text-xs text-blue-200 duration-200 border-2 border-yellow-400 rounded-full hover:border-opacity-100 hover:text-opacity-100 border-opacity-20 text-opacity-20"
+                    >#sass/scss</span
+                  >
+                  <span
+                    class="inline-block px-2 py-1 text-xs text-blue-200 duration-200 border-2 border-yellow-400 rounded-full hover:border-opacity-100 hover:text-opacity-100 border-opacity-20 text-opacity-20"
+                    >#tailwindcss</span
+                  >
+                </span>
+              </div>
+            </div>
+            <div
+              class="max-w-2xl mx-auto mt-8 text-lg leading-7 text-center lg:text-left lg:mx-10"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A nobis
+              beatae excepturi quia quos temporibus adipisci dolor et officiis
+              delectus. Beatae architecto doloribus possimus quibusdam, ex
+              veniam accusamus eius assumenda?
+            </div>
+
+            <a
+              id="orient1"
+              href="#skills"
+              class="relative inline-block px-4 py-2 mt-10 text-xl font-semibold tracking-wide duration-200 -translate-x-1/2 border-4 border-yellow-400 rounded-lg lg:mt-14 lg:left-0 lg:right-0 lg:translate-x-0 left-1/2 right-1/2 lg:mx-10 hover:text-yellow-400"
+              >Discover Me</a
+            >
+          </section>
+          <section id="skills" class="p-96 bg-sky-300"></section>
         </div>
       </main>
     </div>

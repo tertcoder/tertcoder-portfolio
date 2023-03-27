@@ -4,10 +4,13 @@
 
 @layer utilities {
   .main-component {
-    @apply flex flex-col md:flex-row justify-start;
+    @apply flex flex-col lg:flex-row justify-start;
   }
   .activeLink {
     @apply border-l-4 font-medium border-yellow-400 text-yellow-400;
+  }
+
+  @media (min-width: lg) {
   }
 }
 
