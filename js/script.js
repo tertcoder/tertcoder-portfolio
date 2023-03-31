@@ -13,6 +13,7 @@ function active(e) {
   e.target.classList.add("activeLink");
 }
 // From Orient Links
+
 orientLink.addEventListener("click", linkOrient);
 function linkOrient(e) {
   links.forEach((link) => {
@@ -24,7 +25,7 @@ function linkOrient(e) {
 
 // Greeting Word
 let date = new Date();
-console.log(date);
+// console.log(date);
 let hours = date.getHours();
 // let user = prompt("What is your surname");
 if (hours < 12 && hours >= 0) {
