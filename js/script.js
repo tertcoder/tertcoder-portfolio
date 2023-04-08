@@ -12,22 +12,21 @@ function active(e) {
   // console.log(e);
   e.target.classList.add("activeLink");
 }
-// From Orient Links
 
+// From Orient Links
 orientLink.addEventListener("click", linkOrient);
 function linkOrient(e) {
   links.forEach((link) => {
     link.classList.remove("activeLink");
   });
 
-  links[1].classList.add("activeLink");
+  links[0].classList.add("activeLink");
 }
 
 // Greeting Word
 let date = new Date();
-// console.log(date);
 let hours = date.getHours();
-// let user = prompt("What is your surname");
+
 if (hours < 12 && hours >= 0) {
   greet.textContent = `Good Morning!`;
 } else if (hours >= 12 && hours < 17) {
