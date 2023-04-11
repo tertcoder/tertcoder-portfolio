@@ -29,7 +29,7 @@ let hours = date.getHours();
 
 if (hours < 12 && hours >= 0) {
   greet.textContent = `Good Morning!`;
-} else if (hours >= 12 && hours < 17) {
+} else if (hours >= 12 && hours < 18) {
   greet.textContent = `Good Afternoon!`;
 } else {
   greet.textContent = `Good Evening!`;
